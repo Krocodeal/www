@@ -88,9 +88,9 @@ if (!empty($_POST)) {
 					<div id="loginpass" style="display:none;">
 						<label for="message">Mot de passe :</label>
 						<input type="password" style="float:left;" name="loginpass" tabindex="20" value="'; if (isset($_POST['pass'])) echo htmlentities(trim($_POST['pass']));  echo'"/>
-						<input type="submit" name="connexion" value="Connexion" style="float:right;">
+						<input type="submit"  style="margin-top:1px;" name="connexion" value="Connexion" style="float:right;">
 					</div>
-					<input type="submit" name="logininscription" value="Inscription" style="float:top;">
+					<input type="submit" style="margin-top:1px;" name="logininscription" value="Inscription" style="float:top;">
 				</form><br />';
 		}
 			if (isset($loginerreur)) echo '<br />',$loginerreur;

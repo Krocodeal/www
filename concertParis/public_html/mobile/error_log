@@ -1,0 +1,1 @@
+[26-May-2014 12:58:08 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'mysql4.000webhost.com' (4) in /home/concertp/public_html/mobile/connectDB.php on line 11

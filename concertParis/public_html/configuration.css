@@ -138,22 +138,26 @@ border-bottom:3px solid #444;
   font-family: Verdana,Arial,Sherif;
 }
 #fin {
-  border: 2px solid #edf5f9;
-  border-radius: 6px;
+  border: 3px solid #666;
   text-align: center;
   color: black;
   background-color: white;
-  box-shadow: 0 0 3px rgba( 0, 0, 0, 0.5),
-                0 -1px 0 rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+    0 -1px 0 rgba( 255, 255, 255, 0.4);
 	-webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
 	-ms-transition: all 0.6s;
 	-o-transition: all 0.6s;
 	transition: all 0.6s;
+
+    animation:blink 2s;
+    -moz-animation:blink 2s; /* Firefox */
+    -webkit-animation:blink 2s; /* Safari and Chrome */
+    -o-animation:blink 2s; /* Opera */
 		}
 #fin:hover{
-		box-shadow: 0 0 3px #FB4F4F,
-                0 -1px 0 rgba( 255, 255, 255, 0.4);
+    box-shadow: 0 0 15px #000,
+    0 -1px 0 rgba( 255, 255, 255, 0.4);
 }
 p {
   font-family: Arial;
